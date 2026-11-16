@@ -2,27 +2,26 @@
 class Scrutyn < Formula
   desc "Protect npm and PyPI installs made by you and your AI agents"
   homepage "https://scrutyn.com"
-  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.1/scrutyn_0.1.1_darwin_arm64.tar.gz"
-      sha256 "a0636866b29b4946b911d9b85e3119b37e8003f18d9955ae32bf8b4fce4449c8"
+      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.2/scrutyn_0.1.2_darwin_arm64.tar.gz"
+      sha256 "37996352f1523a97f6b1a8ac1eb8cef114a30099da68e640f2a11197074e6fb7"
     end
     on_intel do
-      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.1/scrutyn_0.1.1_darwin_amd64.tar.gz"
-      sha256 "9489211ee966cd6caf47616fe82bb79e210ed2d55b00175892d83283109cc7c0"
+      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.2/scrutyn_0.1.2_darwin_amd64.tar.gz"
+      sha256 "7eb292f62ca9aa716fb6d68dfa2b66394c653abdc01392eacbbaca8c35683cee"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.1/scrutyn_0.1.1_linux_arm64.tar.gz"
-      sha256 "b93c48c834ca151ab5ff4a20df61dbf1ea9dc833f1e38426acdd834d2e6ee6cc"
+      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.2/scrutyn_0.1.2_linux_arm64.tar.gz"
+      sha256 "c3d609cbff431caefba21e5f2156bbe69e753c75c9ad22a23d25fefaa65a8e69"
     end
     on_intel do
-      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.1/scrutyn_0.1.1_linux_amd64.tar.gz"
-      sha256 "26a491f9e6a3e3eb84bc9548bf79bf844395da25750df632c6335b261c208d26"
+      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.2/scrutyn_0.1.2_linux_amd64.tar.gz"
+      sha256 "d8d285ec549903405e0cc878026ec87b1ece91c71238716f7f1afa780bfe98ed"
     end
   end
 
