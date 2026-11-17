@@ -5,23 +5,23 @@ class Scrutyn < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.2/scrutyn_0.1.2_darwin_arm64.tar.gz"
-      sha256 "37996352f1523a97f6b1a8ac1eb8cef114a30099da68e640f2a11197074e6fb7"
+      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.3/scrutyn_0.1.3_darwin_arm64.tar.gz"
+      sha256 "4e5d00fa020323311e7e4edced9c55b73f13905d11697dbcf0f0618159721371"
     end
     on_intel do
-      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.2/scrutyn_0.1.2_darwin_amd64.tar.gz"
-      sha256 "7eb292f62ca9aa716fb6d68dfa2b66394c653abdc01392eacbbaca8c35683cee"
+      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.3/scrutyn_0.1.3_darwin_amd64.tar.gz"
+      sha256 "29f4c371be18ecc24512812d2a8635c6f2e06d4d6deb273c29c1fbfba99de06b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.2/scrutyn_0.1.2_linux_arm64.tar.gz"
-      sha256 "c3d609cbff431caefba21e5f2156bbe69e753c75c9ad22a23d25fefaa65a8e69"
+      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.3/scrutyn_0.1.3_linux_arm64.tar.gz"
+      sha256 "5cca17bd9874cd2ac6094e2161713626b07ba431199291a01215599998186750"
     end
     on_intel do
-      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.2/scrutyn_0.1.2_linux_amd64.tar.gz"
-      sha256 "d8d285ec549903405e0cc878026ec87b1ece91c71238716f7f1afa780bfe98ed"
+      url "https://github.com/scrutyn/scrutyn-cli/releases/download/v0.1.3/scrutyn_0.1.3_linux_amd64.tar.gz"
+      sha256 "cf195d8350acab70525e78c591a55e3f3a7703715309367f612c6fcf3a951b2f"
     end
   end
 
